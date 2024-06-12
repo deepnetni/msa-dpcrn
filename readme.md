@@ -1,3 +1,13 @@
+# Inference
+
+The model inference script `run.py` takes two arguments: the wave file paths of the microphone and reference speech, e.g.,
+
+```python
+python run.py --mic mic_wav_path --ref ref_wav_path
+```
+
+The echo-removed speech will be saved in the `out.wav` to the current directory.
+
 # Samples
 
 The `samples` directory contains the self recorded samples under far-end single talk scenario.
@@ -19,6 +29,4 @@ You can synthesis the test dataset with the following commands using our recorde
 ```python
 python concat_clean_speech.py --gene --sph_dir /path/to/librispeech_train/dev-clean --out_dir /path/to/output
 ```
-
-
 

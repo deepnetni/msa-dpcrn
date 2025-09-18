@@ -1,3 +1,32 @@
+<p align="center">
+  <h1 align="center">MSA-DPCRN: A Multi-Scale Asymmetric Dual-Path Convolution Recurrent Network with Attentional Feature Fusion for Acoustic Echo Cancellation</h1>
+  <p align="center">
+    Ye Ni, Cong Pang, Chengwei Huang, Cairong Zou<br>
+  </p>
+  <p align="center" >
+    <em>Southeast University, Nanjing, China<br> Zhejiang Lab, China</em>
+  </p>
+  <p align="center">
+    <a href='https://www.isca-archive.org/interspeech_2024/ni24_interspeech.pdf'>
+      <img src='https://interspeech2024.org/wp-content/uploads/logo-2024.d110a0.webp' alt='Paper PDF'>
+    </a>
+  </p>
+  <p align="center">
+    <img src="figs/main.png" alt="Logo" width="100%">
+  </p>
+</p>
+
+This is the official code repository for [MSA-DPCRN: A Multi-Scale Asymmetric Dual-Path Convolution Recurrent Network with Attentional Feature Fusion for Acoustic Echo Cancellation](https://www.isca-archive.org/interspeech_2024/ni24_interspeech.pdf) If you find our work useful for your research and applications, please cite using this BibTeX:
+
+```bibtex
+@inproceedings{ni2024msa,
+  title={MSA-DPCRN: A Multi-Scale Asymmetric Dual-Path Convolution Recurrent Network with Attentional Feature Fusion for Acoustic Echo Cancellation},
+  author={Ni, Ye and Pang, Cong and Huang, Chengwei and Zou, Cairong}
+}
+```
+
+
+
 # Inference
 
 The model inference script `run.py` takes two arguments: the wave file paths of the microphone and reference speech, e.g.,
